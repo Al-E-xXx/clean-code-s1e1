@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-task__wrapper {
   display: flex;
 }
 
@@ -102,7 +102,7 @@
 }
 
 /* New Task */
-.new-task {
+.add-task__header {
   display: block;
   margin: 0 0 20px;
 }
@@ -162,11 +162,11 @@
   display: none;
 }
 
-.ul .li.edit-mode .input[type=text] {
+.ul .li.todo__li_edit-mode .input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.ul .li.edit-mode .label {
+.ul .li.todo__li_edit-mode .label {
   display: none;
 }
