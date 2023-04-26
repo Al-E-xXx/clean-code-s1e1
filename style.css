@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.header img {
+.header__image {
   width: 100%;
 }
 
@@ -137,17 +137,19 @@
   width: 226px;
 }
 
-.li >    .input[type="text"] {
+.li > .input[type="text"] {
   width: 226px;
 }
 
-.button.delete img {
+.todo__button-image,
+.completed__button-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button.delete img:hover {
+.todo__button-image:hover,
+.completed__button-image:hover {
   transform: rotateZ(0);
 }
 
