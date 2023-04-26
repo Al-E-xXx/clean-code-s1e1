@@ -34,7 +34,7 @@ var createNewTaskElement=function(taskString){
 
 
   listItem.className="li";
-  checkBox.className="input";
+  checkBox.className="checkbox";
   label.innerText=taskString;
   label.className="label task";
 
@@ -47,7 +47,7 @@ var createNewTaskElement=function(taskString){
   editButton.className="button edit";
 
   deleteButton.className="button delete";
-  deleteButtonImg.className="button-image"
+  deleteButtonImg.className="button-image";
   deleteButtonImg.src='./remove.svg';
   deleteButtonImg.setAttribute("alt", "");
   deleteButton.appendChild(deleteButtonImg);
