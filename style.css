@@ -84,7 +84,7 @@
   text-transform: uppercase;
 }
 
-.input[type="text"] {
+.input.task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -97,7 +97,7 @@
   color: #888;
 }
 
-.input[type="text"]:focus {
+.input.task:focus {
   color: #333;
 }
 
@@ -137,19 +137,17 @@
   width: 226px;
 }
 
-.li > .input[type="text"] {
+.li > .input.task {
   width: 226px;
 }
 
-.todo__button-image,
-.completed__button-image {
+.button-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.todo__button-image:hover,
-.completed__button-image:hover {
+.button-image:hover {
   transform: rotateZ(0);
 }
 
@@ -160,11 +158,11 @@
 }
 
 /* Edit Task */
-.ul .li .input[type=text] {
+.ul .li .input.task {
   display: none;
 }
 
-.ul .li.todo__li_edit-mode .input[type=text] {
+.ul .li.todo__li_edit-mode .input.task {
   display: inline-block;
   width: 224px;
 }
