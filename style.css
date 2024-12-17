@@ -50,12 +50,18 @@
   list-style: none;
 }
 
-.checkbox, .task , .add, .edit, .delete {
+.checkbox,
+.task,
+.add,
+.edit,
+.delete {
   margin: 0 10px 0 0;
   outline: none;
 }
 
-.add, .edit, .delete {
+.add,
+.edit,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -65,7 +71,9 @@
   cursor: pointer;
 }
 
-.add:hover, .edit:hover, .delete:hover {
+.add:hover,
+.edit:hover,
+.delete:hover {
   color: #3a3a3a;
 }
 
@@ -134,7 +142,7 @@
   width: 226px;
 }
 
-.task-row >   .task-input[type="text"] {
+.task-row > .task-input[type="text"] {
   width: 226px;
 }
 
