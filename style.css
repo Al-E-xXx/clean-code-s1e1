@@ -78,6 +78,15 @@
 }
 
 /* Heading */
+.section-title,
+.header-title {
+  visibility: hidden;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  height: 0;
+}
+
 .title,
 .task-label[for="new-task"] {
   color: #333;
