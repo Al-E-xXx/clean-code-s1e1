@@ -21,7 +21,8 @@
 }
 
 @media (max-width:768px) {
-    .header { text-align: center;
+  .header {
+    text-align: center;
   }
 }
 
@@ -48,7 +49,8 @@
   padding: 0px;
 }
 
-.task-list__row, .title {
+.task-list__row,
+.title {
   list-style: none;
 }
 
